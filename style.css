@@ -1,0 +1,45 @@
+h1{
+    color: red;
+}
+body{
+    width: 300px;
+    background-color: #171738;
+    font-family: sans-serif;
+}
+#word{
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    border: none;
+}
+#searchbtn{
+    margin-left: -4px;
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    border: none;
+}
+#detail{
+    color: white;
+    margin-top: -10px;
+}
+.head{
+    font-weight: bold;
+}
+.back{
+    background-color: #212152;
+    color: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#givenWord p:first-child {
+    font-weight: bold;
+    float: left;
+}
+#word1, #definition, #example, #synonyms{
+    color: #dfdbdb;
+}
+.container_body{
+    display: none;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <center>
+    <h1>Hello Folk,</h1>
+    <p id="detail">let's find about this word</p>
+
+    <div class="container">
+      <input type="search" placeholder="Search..." name="word" id="word">
+      <input type="submit" id="searchbtn" value="&#128269;">
+    </div>
+  </center>
+
+  <div class="container_body">
+    <div class="back" id="givenWord">
+      <p>Word: &nbsp;</p>
+      <p id="word1">This is word</p>
+    </div>
+
+    <div class="back">
+      <p class="head">Definition: </p>
+      <p id="definition">This is the definition of the given word.</p>
+    </div>
+
+    <div class="back">
+      <p class="head">Example:</p>
+      <p id="example">This is the example of the lor word that you want to search.</p>
+    </div>
+
+    <div class="back">
+      <p class="head">Synonyms:</p>
+      <ul id="synonyms">
+        <li id="syn1">synonyms 1</li>
+        <li id="syn2">synonyms 2</li>
+        <li id="syn3">synonyms 3</li>
+        <li id="syn4">synonyms 4</li>
+      </ul>
+    </div>
+    
+  </div>
+</body>
+<script src="popup.js"></script>
+</html>
